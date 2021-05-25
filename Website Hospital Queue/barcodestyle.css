@@ -1,0 +1,102 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background: url("img/bgbarcode.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50 100px;
+}
+
+.navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0px;
+	margin-top: 2px;
+}
+
+nav{
+	flex: 1;
+	text-align: center;
+	margin-top: 50px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: 	#000000;
+	font-size: 16px;
+	padding: 5px 2px;
+	font-weight: bold;
+	font-family: 'Chelsea Market', cursive;
+}
+
+nav ul li a:hover{
+	border-bottom: 3px solid #fff;
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	z-index: 999;
+	width: 1000px;
+	height: 300px;
+	text-align: center;
+	padding: 60px 32px;
+	background: rgba(255,255,255,0.04);
+	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	
+}
+
+.content h1{
+	font-size: 20px;
+}
+
+footer{
+	background: rgba(220,220,220,0.3);
+	padding: 30px 0;
+}
+
+.footer-container{
+	max-width: 318px;
+	margin: auto;
+	padding: 0 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.social-media img{
+	height: 25px;
+	margin: 25px auto;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 25px;
+	position: center;
+	margin-left: 50px;
+}
+
+.left-col p{
+	margin-left: 95px;
+}

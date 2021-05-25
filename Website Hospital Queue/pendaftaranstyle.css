@@ -1,0 +1,304 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+
+  display: flex;
+  justify-content: center;
+  min-height: 0;
+  background: url("img/bgpendaftaran.jpg") no-repeat;
+}
+
+.container{
+  background-color: rgba(255,245,238,0.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #DCDCDC;
+  overflow: hidden;
+  width: 1080px;
+  margin-top: 50px;
+  max-width: 100%;
+  margin-left: 400px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.containerC{
+  opacity: 0;
+  border-radius: 2px;
+  overflow: hidden;
+  width: 100px;
+  margin-top: 0;
+  max-width: 100%;
+}
+
+.containerC p{
+	opacity: 0;
+}
+
+.navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 0px;
+	
+}
+
+nav{
+	flex: 1;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: 	#FFFAFA;
+	font-size: 20px;
+	padding: 5px 2px;
+	font-weight: bold;
+	font-family: 'Balsamiq Sans', cursive;
+	
+}
+
+nav ul li a:hover{
+	border-bottom: 3px solid #fff;
+}
+
+.header{
+  background-color: #FFF5EE;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
+}
+
+.headerA{
+	margin-bottom: 10px;
+}
+
+.header h2{
+  margin: 0;
+}
+
+.form{
+  padding: 30px 40px;
+}
+
+.form-control{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label{
+  margin-bottom: 5px;
+}
+
+.form-control input{
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  
+}
+
+.form-control.success input{
+  border-color: #2ecc71;
+  
+}
+
+.form-control.error input{
+  border-color: #FF4500;
+}
+
+.form-control i{
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle{
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control small{
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+
+.form-control.error small{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form button{
+  background-color: #FFE4E1;
+  border: 2px solid #FFE4E1;
+  border-radius: 4px;
+  color: 	#000000;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.form button:hover{
+	background-color: #F8F8FF;
+	background-outline: #F8F8FF;
+}
+
+.containerBawah{
+  background-color: rgba(255,245,238,0.4);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #DCDCDC;
+  overflow: hidden;
+  width: 800px;
+  margin-top: 40px;
+  margin-left: 520px;
+  max-width: 100%;
+
+}
+
+.date-picker{
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+.poli{
+	margin-bottom: 15px;
+}
+
+.dokter {
+	margin-left: 40px;
+	font-weight: 600;
+	font-size: 15px;
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.dokter button{
+	margin-left: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.dokter button:hover{
+	opacity: 0.5;
+}
+
+.ket p{
+	margin-left: 40px;
+	margin-top: 2px;
+}
+
+footer{
+	background: #C0C0C0;
+	padding: 20px 0 ;
+}
+
+.footer-container{
+	margin: auto;
+	padding: 0 80px;
+	display: flex;
+	align-items: center;
+	width: 1903px;
+	height: 200px;
+	
+}
+
+.social-media img{
+	height: 20px;
+	margin: 5px auto;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 25px;
+	position: center;
+}
+
+.tombol input{
+	font-size: 15px;
+	background-color: #FFE4E1;
+	border: 2px solid #FFE4E1;
+	margin-top: 60px;
+	margin-left: 46%;
+	border-radius: 10px;
+	display: box;
+	padding: 15px ;
+	margin-bottom: 40px;
+}
+
+.tombol input:hover{
+	background-color: #DCDCDC;
+	border: 2px solid #DCDCDC;
+}
+
+.date-picker{
+	position: absolute;
+	margin-bottom: 20px;
+}
+
+.date-picker select{
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 12px;
+	width: 150px;
+	border: none;
+	font-size: 15px;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+	-webkit-appearance: button;
+	appearance: button;
+	outline: none;
+}
+
+.date-picker:hover::before {
+  color: rgba(255,248,220);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.date-picker select option {
+  padding: 30px;
+}
+
+.poli{
+	position: absolute;
+	margin-bottom: 20px;
+}
+
+.poli select{
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 12px;
+	width: 150px;
+	border: none;
+	font-size: 15px;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+	-webkit-appearance: button;
+	appearance: button;
+	outline: none;
+}
+
+.poli:hover::before {
+  color: rgba(255,248,220);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.poli select option {
+  padding: 30px;
+}

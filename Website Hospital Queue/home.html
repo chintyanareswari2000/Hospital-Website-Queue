@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>medhost</title>
+	<link rel="stylesheet" href="homestyle.css">
+	
+</head>
+
+<body onload="startTime()">
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+				<img src="img/logo.png" class="logo" >
+				<nav>
+					<ul>
+						<li><a href="file:///D:\CHINTYA'S\BINUS\File MatKul\SEMESTER 2\UAS\HCI\Website Hospital Queue\masuk.html" target="blank">Masuk</a></li>
+						<li><a href="file:///D:\CHINTYA'S\BINUS\File MatKul\SEMESTER 2\UAS\HCI\Website Hospital Queue\pendaftaran.html" target="blank">Pendaftaran</a></li>
+						<li><a href="file:///D:\CHINTYA'S\BINUS\File MatKul\SEMESTER 2\UAS\HCI\Website Hospital Queue\live.html" target="blank">Konfirmasi Pendaftaran</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="content">
+				<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+				<h1>Selamat Datang di <span>MEDHOST</span></h1>
+				<p>Pilihan Terbaik untuk Semuanya</p>
+				
+				<div class="btn-box">
+					<button type="button">Hubungi Kami</button>
+					<button type="button">EMERGENCY</button>
+				</div>
+			</div>
+		
+			<div class="sidebar">
+					<script>
+					function startTime() {
+					  var today = new Date();
+					  var h = today.getHours();
+					  var m = today.getMinutes();
+					  var s = today.getSeconds();
+					  m = checkTime(m);
+					  s = checkTime(s);
+					  document.getElementById('txt').innerHTML =
+					  h + ":" + m + ":" + s;
+					  var t = setTimeout(startTime, 500);
+					}
+					function checkTime(i) {
+					  if (i < 10) {i = "0" + i};  // angka nol di depan angka yg lebih kecil dari 10
+					  return i;
+					}
+					</script>
+					<div id="txt"></div>
+					<div class="sektor">
+						<p>dokter umum</p>
+						<h3>#21</h3>
+					</div>
+					<br></br>
+					<div class="sektor">
+						<p>dokter anak</p>
+						<h3>#11</h3>
+					</div>
+					<br></br>
+					<div class="sektor">
+						<p>THT</p>
+						<h3>#09</h3>
+					</div>
+					<br></br>
+					<div class="sektor">
+						<p>Radiologi</p>
+						<h3>#30</h3>
+					</div>
+					<br></br>
+					<div class="sektor">
+						<p>Gigi</p>
+						<h3>#15</h3>
+					</div>
+					<br></br>
+					<div class="sektor">
+						<p>P. Dalam</p>
+						<h3>#03</h3>
+					</div><br></br>
+					<div class="sektor">
+						<p>Mata</p>
+						<h3>-</h3>
+					</div><br></br>
+					<div class="sektor">
+						<p>Kandungan</p>
+						<h3>-</h3>
+					</div>
+					<div class="skip" action="#">
+						<a href=#">Antrian Terlewat?</a>
+					</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<footer>
+		<div class="footer-container">
+			<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+			<div class="left-col">
+				<img src="img/logo.png" alt="" class="logo">
+				<div class="social-media">
+					<img src="img/facebook.png">
+					<img src="img/instagram.png">
+					<img src="img/whatsapp.png">
+				</div>
+				<p class="right-text">All Rights Reserved.</p>
+				
+			</div>
+			<div class="right-col">
+				<h1>Get Our Newest News </h1>
+				<div class="border"></div>
+				<p>Masukkan Email untuk Mendapatkan Diskon</p>
+				<form action="" class="newsletter-form">
+					<input type="text" class="txtb" placeholder="Masukkan Email">
+					<input type="submit" class="btn" value="submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>
